@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Codeist - IDE</title>
+    <meta property="og:title" content="Codeist - IDE" />
+    <meta name="description" content="Web based Integrated Development Environment (IDE)" />
+    <meta property="og:image" content="image" href="./src/images/logo.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./src/css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+        integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"
+        integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q=="
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+
+    <link rel="stylesheet" href="./sweetalert2/theme-dark/dark.css">
+    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="main_container">
+        <div class="container">
+            <div class="editor">
+                <div class="tab">
+                    <button class="tablinks html selected" onclick="openTab(event, 'HTML')"
+                        id="defaultOpen">HTML</button>
+                    <button class="tablinks css" onclick="openTab(event, 'CSS')">CSS</button>
+                    <button class="tablinks js" onclick="openTab(event, 'JS')">JS</button>
+                    <span id="day" onclick="toggleDay();"><i class="fas fa-adjust"></i></span>
+                    <span id="night" onclick="toggleNight();"><i class="fas fa-adjust"></i></span>
+                    <span onclick=" resetCode()" class="reset"><i class="fas fa-sync-alt"></i></span>
+                    <span class="preview-play" onclick="togglePreview()"><i class="fas fa-play"></i></span>
+                    <div id="HTML" class="tabcontent html"></div>
+                    <div id="CSS" class="tabcontent css"></div>
+                    <div id="JS" class="tabcontent js"></div>
+                    <span class="mwl">
+                        © 2020 • Codeist
+                    </span>
+                    <footer> © 2020 • Codeist</footer>
+                </div>
+            </div>
+            <div class="bte">
+                <h2>Back to Editor</h2>
+                <span class="back"><i class="fas fa-angle-left"></i></span>
+            </div>
+            <iframe class="output"></iframe>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".preview-play").click(function () {
+                $(".editor").hide();
+                $(".output").show();
+                $(".bte").show();
+            });
+        });
+        $(document).ready(function () {
+            $(".back").click(function () {
+                $(".output").hide();
+                $(".bte").hide();
+                $(".editor").show();
+            });
+        });
+        $(document).ready(function () {
+            $("#night").hide();
+        });
+        $(document).ready(function () {
+            $("#day").click(function () {
+                $("#day").hide();
+                $("#night").show();
+            });
+        });
+        $(document).ready(function () {
+            $("#night").click(function () {
+                $("#night").hide();
+                $("#day").show();
+            });
+        });
+    </script>
+    <script src="./sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="./src/js/app.js"></script>
+    <script src="./src/js/fireBase.js"></script>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/google-signin.js"></script>
+</body>
+
+</html>
