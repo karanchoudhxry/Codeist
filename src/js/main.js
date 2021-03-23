@@ -13,7 +13,6 @@ var init = function(){
     firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
           // User is signed in.
-          console.log("stay");
           mainContainer.style.display = "";
         } else {
           // No user is signed in.
