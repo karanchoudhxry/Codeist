@@ -1,5 +1,4 @@
 window.onload = function () {
-    console.log("Run...");
     window.editorHTML = ace.edit("HTML");
     window.editorCSS = ace.edit("CSS");
     window.editorJS = ace.edit("JS");
@@ -102,7 +101,7 @@ window.onload = function () {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-document.getElementsByClassName(".reset").addEventListener('click', resetCode)
+document.getElementsByClassName("reset").addEventListener('click', resetCode)
 function resetCode(){
   Swal.fire({
     title: 'Are you sure?',
