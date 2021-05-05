@@ -20,12 +20,8 @@
  - Stores code to local storage⚙️
  - Mobile friendly📱
 
-## Technlogies used:
+## Dependencies:
 
- - HTML
- - CSS
- - JavaScript
- - Jquery
  - [Font-Awesome](https://fontawesome.com/)
  - [SweetAlert2](https://sweetalert2.github.io/)
  - [Ace.js](http://ace.c9.io/)
