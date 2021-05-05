@@ -14,13 +14,13 @@
 
 > **Codeist** is a Web-Based Code Editor made using **Ace.js** for rapid web development. It lets you quickly prototype your ideas with code. It is a lightweight editor which also saves your code for future use. 
 
-##Features:
+## Features:
  - Dark/Light Theme🌓 
  - Realtime⚡️ 
  - Stores code to local storage⚙️
  - Mobile friendly📱
 
-##Technlogies used:
+## Technlogies used:
 
  - HTML
  - CSS
