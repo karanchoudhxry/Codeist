@@ -53,6 +53,4 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Karan Choudhary](https://github.com/xKaran).<br />
-This project is [MIT](https://github.com/xkaran/Codeist/blob/master/LICENSE) licensed.
-
+Codeist is open-source and is under the [MIT License](https://github.com/xkaran/Codeist/blob/master/LICENSE).
