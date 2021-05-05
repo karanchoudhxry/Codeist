@@ -14,13 +14,13 @@
 
 > **Codeist** is a Web-Based Code Editor made using **Ace.js** for rapid web development. It lets you quickly prototype your ideas with code. It is a lightweight editor which also saves your code for future use. 
 
-**Features:**
+##Features:
  - Dark/Light Theme🌓 
  - Realtime⚡️ 
  - Stores code to local storage⚙️
  - Mobile friendly📱
 
-**Technlogies used:**
+##Technlogies used:
 
  - HTML
  - CSS
@@ -31,7 +31,7 @@
  - [Ace.js](http://ace.c9.io/)
  - [Firebase Auth](https://firebase.google.com/)
 
-### 🏠 [Homepage](https://github.com/xKaran/Codeist#readme)
+### 🏠 [Homepage](https://codeist.netlify.app)
 
 ## Author
 
@@ -60,8 +60,3 @@ Give a ⭐️ if this project helped you!
 Copyright © 2021 [Karan Choudhary](https://github.com/xKaran).<br />
 This project is [MIT](https://github.com/xkaran/Codeist/blob/master/LICENSE) licensed.
 
-
-
-Live at: https://codeist.netlify.app  
-Contribute: https://github.com/xKaran/Codeist/ 
--->
