@@ -31,7 +31,7 @@
 
 ## Author
 
-* Karan Choudhary [@xKaran](https://github.com/xKaran)
+* Karan Choudhary ([@xKaran](https://github.com/xKaran))
 
 ## 🤝 Contributing
 
