@@ -1,14 +1,14 @@
 <h1 align="center">Welcome to Codeist 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/xKaran/Codeist#readme" target="_blank">
+  <a href="https://github.com/karanchoudhxry/Codeist#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/xKaran/codeist/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/karanchoudhxry/codeist/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/Sara-Personal-Assistant/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/xKaran/codeist" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/karanchoudhxry/codeist" />
   </a>
 </p>
 
@@ -31,11 +31,11 @@
 
 ## Author
 
-* Karan Choudhary ([@itskaranchoudhary](https://github.com/itskaranchoudhary))
+* Karan Choudhary ([@karanchoudhxry](https://github.com/karanchoudhxry))
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/xKaran/Codeist/issues). You can also take a look at the [contributing guide](https://github.com/xKaran/codeist/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/karanchoudhxry/Codeist/issues). You can also take a look at the [contributing guide](https://github.com/karanchoudhxry/codeist/blob/master/CONTRIBUTING.md).
 
 ## 👨🏻‍💻 How to get started?
 
@@ -53,4 +53,4 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Codeist is open-source and is under the [MIT License](https://github.com/xkaran/Codeist/blob/master/LICENSE).
+Codeist is open-source and is under the [MIT License](https://github.com/karanchoudhxry/Codeist/blob/master/LICENSE).
